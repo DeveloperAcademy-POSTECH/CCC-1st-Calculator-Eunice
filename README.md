@@ -11,7 +11,7 @@ Clone iPhone default calculator for study (CultureCenter1 - 1st week)
 
 구현할 기능:
   - 계산
-    - 사칙연산
+    - 사칙연산 (연산자 순서 포함)
     - 계산불가시 "오류" 출력
     - +/-, %
   - '.' 이미 0.3 있을 때 눌러도 입력 안 되기
