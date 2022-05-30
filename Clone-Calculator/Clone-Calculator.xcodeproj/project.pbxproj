@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C58AA1CC2844ABB0003286A4 /* CodeBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58AA1CB2844ABB0003286A4 /* CodeBackup.swift */; };
 		C58E9857284339A4001A2B00 /* Clone_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E9856284339A4001A2B00 /* Clone_CalculatorApp.swift */; };
 		C58E9859284339A4001A2B00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E9858284339A4001A2B00 /* ContentView.swift */; };
 		C58E985B284339A5001A2B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58E985A284339A5001A2B00 /* Assets.xcassets */; };
 		C58E985E284339A5001A2B00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58E985D284339A5001A2B00 /* Preview Assets.xcassets */; };
+		C58E986528434C87001A2B00 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E986428434C87001A2B00 /* Functions.swift */; };
+		C58E986728438DFE001A2B00 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E986628438DFE001A2B00 /* Extensions.swift */; };
+		C58E98692843B87B001A2B00 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58E98682843B87B001A2B00 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C58AA1CB2844ABB0003286A4 /* CodeBackup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBackup.swift; sourceTree = "<group>"; };
 		C58E9853284339A4001A2B00 /* Clone-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clone-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58E9856284339A4001A2B00 /* Clone_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clone_CalculatorApp.swift; sourceTree = "<group>"; };
 		C58E9858284339A4001A2B00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C58E985A284339A5001A2B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C58E985D284339A5001A2B00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C58E986428434C87001A2B00 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		C58E986628438DFE001A2B00 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C58E98682843B87B001A2B00 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				C58E9856284339A4001A2B00 /* Clone_CalculatorApp.swift */,
 				C58E9858284339A4001A2B00 /* ContentView.swift */,
+				C58E986428434C87001A2B00 /* Functions.swift */,
 				C58E985A284339A5001A2B00 /* Assets.xcassets */,
 				C58E985C284339A5001A2B00 /* Preview Content */,
+				C58E986628438DFE001A2B00 /* Extensions.swift */,
+				C58E98682843B87B001A2B00 /* ButtonView.swift */,
+				C58AA1CB2844ABB0003286A4 /* CodeBackup.swift */,
 			);
 			path = "Clone-Calculator";
 			sourceTree = "<group>";
@@ -139,6 +151,10 @@
 			files = (
 				C58E9859284339A4001A2B00 /* ContentView.swift in Sources */,
 				C58E9857284339A4001A2B00 /* Clone_CalculatorApp.swift in Sources */,
+				C58AA1CC2844ABB0003286A4 /* CodeBackup.swift in Sources */,
+				C58E98692843B87B001A2B00 /* ButtonView.swift in Sources */,
+				C58E986528434C87001A2B00 /* Functions.swift in Sources */,
+				C58E986728438DFE001A2B00 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Clone-Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = W97GTPRX7R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +291,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Clone-Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = W97GTPRX7R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +321,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
